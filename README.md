@@ -4,14 +4,19 @@ Welcome to my Machine Learning Framework!
 
 ## Overview
 
-This is a Python-based machine learning framework designed for data handling and preprocessing. It's a useful tool for data scientists and machine learning enthusiasts.
+This is a Python-based machine learning framework designed for data handling and preprocessing. its really just practice of OOP in python, you can try recreate this step by step to hone your skills
 
-## Features
+## Features (WIP)
 
 - Data loading from CSV, Parquet, and Pickle formats.
 - Data splitting for model training and testing.
 - Data preprocessing for handling missing values and scaling features.
 - Practice Object-Oriented Programming (OOP) in a fun way!
+
+## Coming:
+
+- Linear regression
+- KNN
 
 ## Getting Started
 
@@ -35,8 +40,9 @@ This is a Python-based machine learning framework designed for data handling and
    You can use this framework by creating instances of the `DataHandler` and `DataPreprocessor` classes. Here's an example: 
 
    ``` python
-   #Import the classes from data_handler 
-   import DataHandler from data_preprocessor import DataPreprocessor 
+   #Import the classes 
+   from data_handler import DataHandler 
+   from data_preprocessor import DataPreprocessor 
    # Load data 
    data_handler = DataHandler("your_dataset.csv") 
    data_handler.load_data() 

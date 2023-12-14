@@ -42,5 +42,3 @@ class DataHandler:
         self.test_data = self.data.loc[shuffled_indices[split_index:]]
     
     
-    def preprocessing():
-        pass
